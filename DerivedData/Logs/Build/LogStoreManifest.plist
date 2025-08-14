@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>7BC85007-7528-4425-9C22-F3DBF32D9C57</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7BC85007-7528-4425-9C22-F3DBF32D9C57.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>10</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PersonalBakery project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PersonalBakery</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PersonalBakery with scheme PersonalBakery</string>
+			<key>timeStartedRecording</key>
+			<real>776160833.29098701</real>
+			<key>timeStoppedRecording</key>
+			<real>776160850.04226398</real>
+			<key>title</key>
+			<string>Building project PersonalBakery with scheme PersonalBakery</string>
+			<key>uniqueIdentifier</key>
+			<string>7BC85007-7528-4425-9C22-F3DBF32D9C57</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,338 @@
+{
+  "" : {
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery-master.dia",
+    "emit-module-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery-master-emit-module.dia",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery-master.swiftdeps"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Client+CoreDataClass.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Client+CoreDataProperties.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Client+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Order+CoreDataClass.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Order+CoreDataProperties.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Order+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/PersonalBakery+CoreDataModel.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/PersonalBakery+CoreDataModel~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Product+CoreDataClass.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/Product+CoreDataProperties.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/Product+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/WarehouseItem+CoreDataClass.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/CoreDataGenerated/PersonalBakery/WarehouseItem+CoreDataProperties.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseItem+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/AppDelegate.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/ColorExten.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ColorExten~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/CoreDataManager.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/CoreDataManager~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/DataViewModel.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/DataViewModel~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/MainTabView.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainTabView~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/AddClient/AddClientScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddClientScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/AddOrder/AddOrderScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddOrderScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/AddProduct/AddProductScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddProductScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Clients/ClientsScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/ClientsItem/ClientsItemView.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemView~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/ClientsItem/ClientsItemViewModel.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ClientsItemViewModel~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Goods/GoodsScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/GoodsItem/GoodsItemView.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemView~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/GoodsItem/GoodsItemViewModel.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/GoodsItemViewModel~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Home/HomeScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/HomeScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/MainItem/MainItemView.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemView~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/MainItem/MainItemViewModel.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/MainItemViewModel~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Orders/OrdersScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/OrdersScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Warehouse/AddWarehouseItemScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/AddWarehouseItemScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Warehouse/WarehouseDemo.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseDemo~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/Modules/Warehouse/WarehouseScreen.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/WarehouseScreen~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/SceneDelegate.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/PersonalBakery/ViewController.swift" : {
+    "const-values" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/storozhkoandrey/Desktop/Projects/PersonalBakery/DerivedData/Build/Intermediates.noindex/PersonalBakery.build/Debug-iphonesimulator/PersonalBakery.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  }
+}
