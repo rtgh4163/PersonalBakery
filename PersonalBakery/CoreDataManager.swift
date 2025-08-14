@@ -26,7 +26,7 @@ class CoreDataManager: ObservableObject {
             do {
                 try context.save()
             } catch {
-                print(\(error)")
+                print("\(error)")
             }
         }
     }

@@ -80,24 +80,25 @@ struct WarehouseItemView: View {
             Text("\(item.quantity)")
                 .foregroundColor(.white)
                 .font(.system(size: 18, weight: .semibold, design: .rounded))
-
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
-        .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(
-                    LinearGradient(colors: [
-                        Color(red: 79, green: 70, blue: 93),
-                        Color(red: 69, green: 54, blue: 73)
-                    ], startPoint: .top, endPoint: .bottom)
+            
+                .padding(.horizontal, 16)
+                .padding(.vertical, 12)
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(
+                            LinearGradient(colors: [
+                                Color(red: 79, green: 70, blue: 93),
+                                Color(red: 69, green: 54, blue: 73)
+                            ], startPoint: .top, endPoint: .bottom)
+                        )
                 )
-        )
-        .sheet(isPresented: $showingEditSheet) {
-            EditQuantitySheet(itemName: item.name ?? "Unknown", quantity: $editedQuantity) {
-                if let newQuantity = Int32(editedQuantity) {
-                    dataViewModel.updateWarehouseItemQuantity(item, newQuantity: newQuantity)
+                .sheet(isPresented: $showingEditSheet) {
+                    EditQuantitySheet(itemName: item.name ?? "Unknown", quantity: $editedQuantity) {
+                        if let newQuantity = Int32(editedQuantity) {
+                            dataViewModel.updateWarehouseItemQuantity(item, newQuantity: newQuantity)
+                        }
+                    }
                 }
-            }
         }
     }
 }
