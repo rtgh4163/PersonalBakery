@@ -183,4 +183,64 @@ class DataViewModel: ObservableObject {
             return status
         }
     }
+    
+    // MARK: - Statistics Methods
+    
+    func getRevenueForTimeRange(_ timeRange: StatisticsScreen.TimeRange) -> Double {
+        let calendar = Calendar.current
+        let now = Date()
+        
+        var startDate: Date
+        
+        switch timeRange {
+        case .week:
+            startDate = calendar.date(byAdding: .day, value: -7, to: now) ?? now
+        case .month:
+            startDate = calendar.date(byAdding: .month, value: -1, to: now) ?? now
+        case .quarter:
+            startDate = calendar.date(byAdding: .month, value: -3, to: now) ?? now
+        case .year:
+            startDate = calendar.date(byAdding: .year, value: -1, to: now) ?? now
+        }
+        
+        return orders
+            .filter { $0.orderDate ?? .now >= startDate && $0.status?.lowercased() == "ready" }
+            .reduce(0) { $0 + $1.price }
+    }
+    
+    func getOrdersCountForTimeRange(_ timeRange: StatisticsScreen.TimeRange) -> Int {
+        let calendar = Calendar.current
+        let now = Date()
+        
+        var startDate: Date
+        
+        switch timeRange {
+        case .week:
+            startDate = calendar.date(byAdding: .day, value: -7, to: now) ?? now
+        case .month:
+            startDate = calendar.date(byAdding: .month, value: -1, to: now) ?? now
+        case .quarter:
+            startDate = calendar.date(byAdding: .month, value: -3, to: now) ?? now
+        case .year:
+            startDate = calendar.date(byAdding: .year, value: -1, to: now) ?? now
+        }
+        
+        return orders.filter { $0.orderDate ?? .now >= startDate }.count
+    }
+    
+    func getTopProducts(limit: Int = 5) -> [Product] {
+        return Array(products.prefix(limit))
+    }
+    
+    func getTopClients(limit: Int = 5) -> [Client] {
+        return clients.sorted { getClientOrderCount($0) > getClientOrderCount($1) }
+            .prefix(limit)
+            .map { $0 }
+    }
+    
+    func getRecentOrders(limit: Int = 10) -> [Order] {
+        return orders.sorted { ($0.orderDate ?? Date()) > ($1.orderDate ?? Date()) }
+            .prefix(limit)
+            .map { $0 }
+    }
 } 

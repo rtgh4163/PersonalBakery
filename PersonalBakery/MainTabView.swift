@@ -31,6 +31,12 @@ struct MainTabView: View {
                     .tag(3)
                     .navigationBarHidden(true)
                     .navigationBarBackButtonHidden(true)
+                
+                StatisticsScreen()
+                    .environmentObject(dataViewModel)
+                    .tag(4)
+                    .navigationBarHidden(true)
+                    .navigationBarBackButtonHidden(true)
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             
@@ -70,6 +76,14 @@ struct MainTabView: View {
                         isSelected: selectedTab == 3
                     ) {
                         selectedTab = 3
+                    }
+                    
+                    TabButton(
+                        icon: Image(systemName: "chart.bar.fill"),
+                        title: "Stats",
+                        isSelected: selectedTab == 4
+                    ) {
+                        selectedTab = 4
                     }
                 }
                 .background(Color(red: 28/255, green: 12/255, blue: 29/255))
