@@ -21,7 +21,6 @@ struct StatisticsScreen: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            // Header
             HStack {
                 Text("STATISTICS")
                     .foregroundStyle(
@@ -61,7 +60,6 @@ struct StatisticsScreen: View {
             
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 20) {
-                    // Key Metrics Cards
                     LazyVGrid(columns: [
                         GridItem(.flexible()),
                         GridItem(.flexible())
@@ -115,7 +113,6 @@ struct StatisticsScreen: View {
                         }
                         .padding(.horizontal, 16)
                         
-                        // Top Products
                         VStack(spacing: 12) {
                             Text("Top Products")
                                 .foregroundColor(.white.opacity(0.8))
@@ -133,7 +130,6 @@ struct StatisticsScreen: View {
                         }
                         .padding(.horizontal, 16)
                         
-                        // Top Clients
                         VStack(spacing: 12) {
                             Text("Top Clients")
                                 .foregroundColor(.white.opacity(0.8))
@@ -152,7 +148,6 @@ struct StatisticsScreen: View {
                         .padding(.horizontal, 16)
                     }
                     
-                    // Recent Activity
                     VStack(spacing: 16) {
                         HStack {
                             Text("Recent Activity")
@@ -372,7 +367,6 @@ struct RevenueChart: View {
                 .foregroundColor(.white)
                 .font(.system(size: 18, weight: .bold, design: .rounded))
             
-            // Placeholder for chart - you can integrate with Charts framework
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color(red: 255, green: 65, blue: 103).opacity(0.3))
                 .overlay(
@@ -394,7 +388,6 @@ struct OrdersChart: View {
                 .foregroundColor(.white)
                 .font(.system(size: 18, weight: .bold, design: .rounded))
             
-            // Placeholder for chart
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color(red: 255, green: 193, blue: 7).opacity(0.3))
                 .overlay(
@@ -416,7 +409,6 @@ struct ProductsChart: View {
                 .foregroundColor(.white)
                 .font(.system(size: 18, weight: .bold, design: .rounded))
             
-            // Placeholder for chart
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color(red: 88, green: 86, blue: 214).opacity(0.3))
                 .overlay(

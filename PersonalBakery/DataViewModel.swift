@@ -184,8 +184,6 @@ class DataViewModel: ObservableObject {
         }
     }
     
-    // MARK: - Statistics Methods
-    
     func getRevenueForTimeRange(_ timeRange: StatisticsScreen.TimeRange) -> Double {
         let calendar = Calendar.current
         let now = Date()
