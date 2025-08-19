@@ -50,6 +50,14 @@ struct OrdersScreen: View {
                 )
                 .foregroundColor(.white)
                 .font(.system(size: 16, weight: .bold, design: .rounded))
+                .toolbar {
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            hideKeyboard()
+                        }
+                    }
+                }
                 
                 Spacer()
             }

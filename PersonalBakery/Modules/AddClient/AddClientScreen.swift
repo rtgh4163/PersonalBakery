@@ -24,6 +24,8 @@ struct AddClientScreen: View {
                 )
                 .foregroundColor(.white)
                 .font(.system(size: 16, weight: .bold, design: .rounded))
+                .toolbar {
+                }
                 
                 Spacer()
             }
@@ -53,6 +55,14 @@ struct AddClientScreen: View {
                 .foregroundColor(.white)
                 .font(.system(size: 16, weight: .bold, design: .rounded))
                 .keyboardType(.phonePad)
+                .toolbar {
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            hideKeyboard()
+                        }
+                    }
+                }
                 
                 Spacer()
             }
@@ -120,4 +130,11 @@ struct AddClientScreen: View {
 
 #Preview {
     AddClientScreen(dataViewModel: DataViewModel())
+}
+
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder),
+                                        to: nil, from: nil, for: nil)
+    }
 }

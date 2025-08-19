@@ -59,6 +59,8 @@ struct AddProductScreen: View {
                     )
                     .foregroundColor(.white)
                     .font(.system(size: 16, weight: .bold, design: .rounded))
+                    .toolbar {
+                    }
                     
                     Spacer()
                 }
@@ -88,6 +90,14 @@ struct AddProductScreen: View {
                     .foregroundColor(.white)
                     .font(.system(size: 16, weight: .bold, design: .rounded))
                     .keyboardType(.decimalPad)
+                    .toolbar {
+                        ToolbarItemGroup(placement: .keyboard) {
+                            Spacer()
+                            Button("Done") {
+                                hideKeyboard()
+                            }
+                        }
+                    }
                     
                     Spacer()
                 }
