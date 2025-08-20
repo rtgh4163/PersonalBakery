@@ -216,5 +216,141 @@ class CoreDataManager: ObservableObject {
         }
     }
     
+    func createSupplier(name: String, phoneNumber: String, email: String? = nil, address: String? = nil, contactPerson: String? = nil, website: String? = nil, notes: String? = nil, rating: Int16 = 5) -> Supplier {
+        let supplier = Supplier(context: context)
+        supplier.id = UUID()
+        supplier.name = name
+        supplier.phoneNumber = phoneNumber
+        supplier.email = email
+        supplier.address = address
+        supplier.contactPerson = contactPerson
+        supplier.website = website
+        supplier.notes = notes
+        supplier.rating = rating
+        supplier.status = "Active"
+        supplier.createdAt = Date()
+        save()
+        return supplier
+    }
+    
+    func fetchSuppliers() -> [Supplier] {
+        let request: NSFetchRequest<Supplier> = Supplier.fetchRequest()
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Supplier.name, ascending: true)]
+        
+        do {
+            return try context.fetch(request)
+        } catch {
+            print("\(error)")
+            return []
+        }
+    }
+    
+    func fetchSuppliers(withStatus status: String) -> [Supplier] {
+        let request: NSFetchRequest<Supplier> = Supplier.fetchRequest()
+        request.predicate = NSPredicate(format: "status == %@", status)
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Supplier.name, ascending: true)]
+        
+        do {
+            return try context.fetch(request)
+        } catch {
+            print("\(error)")
+            return []
+        }
+    }
+    
+    func updateSupplierStatus(_ supplier: Supplier, newStatus: String) {
+        supplier.status = newStatus
+        save()
+    }
+    
+    func updateSupplierRating(_ supplier: Supplier, newRating: Int16) {
+        supplier.rating = newRating
+        save()
+    }
+    
+    func deleteSupplier(_ supplier: Supplier) {
+        context.delete(supplier)
+        save()
+    }
+    
+    func createPurchase(supplier: Supplier, itemName: String, quantity: Int32, amount: Double, unit: String? = nil, orderDate: Date, deliveryDate: Date? = nil, notes: String? = nil, status: String = "Pending") -> Purchase {
+        let purchase = Purchase(context: context)
+        purchase.id = UUID()
+        purchase.supplier = supplier
+        purchase.itemName = itemName
+        purchase.quantity = quantity
+        purchase.amount = amount
+        purchase.unit = unit
+        purchase.orderDate = orderDate
+        purchase.deliveryDate = deliveryDate
+        purchase.notes = notes
+        purchase.status = status
+        purchase.createdAt = Date()
+        
+        supplier.addToPurchases(purchase)
+        save()
+        return purchase
+    }
+    
+    func fetchPurchases() -> [Purchase] {
+        let request: NSFetchRequest<Purchase> = Purchase.fetchRequest()
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Purchase.orderDate, ascending: false)]
+        
+        do {
+            return try context.fetch(request)
+        } catch {
+            print("\(error)")
+            return []
+        }
+    }
+    
+    func fetchPurchases(forSupplier supplier: Supplier) -> [Purchase] {
+        let request: NSFetchRequest<Purchase> = Purchase.fetchRequest()
+        request.predicate = NSPredicate(format: "supplier == %@", supplier)
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Purchase.orderDate, ascending: false)]
+        
+        do {
+            return try context.fetch(request)
+        } catch {
+            print("\(error)")
+            return []
+        }
+    }
+    
+    func updatePurchaseStatus(_ purchase: Purchase, newStatus: String) {
+        purchase.status = newStatus
+        save()
+    }
+    
+    func deletePurchase(_ purchase: Purchase) {
+        context.delete(purchase)
+        save()
+    }
+    
+    func getSupplierPurchaseCount(_ supplier: Supplier) -> Int {
+        let request: NSFetchRequest<Purchase> = Purchase.fetchRequest()
+        request.predicate = NSPredicate(format: "supplier == %@", supplier)
+        
+        do {
+            return try context.count(for: request)
+        } catch {
+            print("\(error)")
+            return 0
+        }
+    }
+    
+    func getSupplierTotalSpent(_ supplier: Supplier) -> Double {
+        let request: NSFetchRequest<Purchase> = Purchase.fetchRequest()
+        request.predicate = NSPredicate(format: "supplier == %@", supplier)
+        
+        do {
+            let purchases = try context.fetch(request)
+            return purchases.reduce(0) { $0 + $1.amount }
+        } catch {
+            print("\(error)")
+            return 0
+        }
+    }
+    
 
 } 

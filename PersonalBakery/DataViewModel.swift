@@ -22,6 +22,8 @@ class DataViewModel: ObservableObject {
         products = coreDataManager.fetchProducts()
         orders = coreDataManager.fetchOrders()
         warehouseItems = coreDataManager.fetchWarehouseItems()
+        suppliers = coreDataManager.fetchSuppliers()
+        purchases = coreDataManager.fetchPurchases()
         updateStatistics()
     }
     
@@ -240,5 +242,100 @@ class DataViewModel: ObservableObject {
         return orders.sorted { ($0.orderDate ?? Date()) > ($1.orderDate ?? Date()) }
             .prefix(limit)
             .map { $0 }
+    }
+    
+    @Published var suppliers: [Supplier] = []
+    @Published var purchases: [Purchase] = []
+    
+    func loadSupplierData() {
+        suppliers = coreDataManager.fetchSuppliers()
+        purchases = coreDataManager.fetchPurchases()
+    }
+    
+    func addSupplier(name: String, phoneNumber: String, email: String? = nil, address: String? = nil, contactPerson: String? = nil, website: String? = nil, notes: String? = nil, rating: Int16 = 5) {
+        let supplier = coreDataManager.createSupplier(name: name, phoneNumber: phoneNumber, email: email, address: address, contactPerson: contactPerson, website: website, notes: notes, rating: rating)
+        suppliers.append(supplier)
+        objectWillChange.send()
+    }
+    
+    func deleteSupplier(_ supplier: Supplier) {
+        coreDataManager.deleteSupplier(supplier)
+        if let index = suppliers.firstIndex(of: supplier) {
+            suppliers.remove(at: index)
+        }
+        objectWillChange.send()
+    }
+    
+    func updateSupplierStatus(_ supplier: Supplier, newStatus: String) {
+        coreDataManager.updateSupplierStatus(supplier, newStatus: newStatus)
+        objectWillChange.send()
+    }
+    
+    func updateSupplierRating(_ supplier: Supplier, newRating: Int16) {
+        coreDataManager.updateSupplierRating(supplier, newRating: newRating)
+        objectWillChange.send()
+    }
+    
+    func updateSupplier(_ supplier: Supplier, name: String, phoneNumber: String, email: String?, address: String?, contactPerson: String?, website: String?, notes: String?, rating: Int16, status: String) {
+        supplier.name = name
+        supplier.phoneNumber = phoneNumber
+        supplier.email = email
+        supplier.address = address
+        supplier.contactPerson = contactPerson
+        supplier.website = website
+        supplier.notes = notes
+        supplier.rating = rating
+        supplier.status = status
+        
+        coreDataManager.save()
+        objectWillChange.send()
+    }
+    
+    func addPurchase(supplier: Supplier, itemName: String, quantity: Int32, amount: Double, unit: String? = nil, orderDate: Date, deliveryDate: Date? = nil, notes: String? = nil, status: String = "Pending") {
+        let purchase = coreDataManager.createPurchase(supplier: supplier, itemName: itemName, quantity: quantity, amount: amount, unit: unit, orderDate: orderDate, deliveryDate: deliveryDate, notes: notes, status: status)
+        purchases.append(purchase)
+        objectWillChange.send()
+    }
+    
+    func deletePurchase(_ purchase: Purchase) {
+        coreDataManager.deletePurchase(purchase)
+        if let index = purchases.firstIndex(of: purchase) {
+            purchases.remove(at: index)
+        }
+        objectWillChange.send()
+    }
+    
+    func updatePurchaseStatus(_ purchase: Purchase, newStatus: String) {
+        coreDataManager.updatePurchaseStatus(purchase, newStatus: newStatus)
+        objectWillChange.send()
+    }
+    
+    func getSupplierPurchaseCount(_ supplier: Supplier) -> Int {
+        return coreDataManager.getSupplierPurchaseCount(supplier)
+    }
+    
+    func getSupplierTotalSpent(_ supplier: Supplier) -> Double {
+        return coreDataManager.getSupplierTotalSpent(supplier)
+    }
+    
+    func searchSuppliers(query: String) -> [Supplier] {
+        if query.isEmpty {
+            return suppliers
+        }
+        return suppliers.filter { supplier in
+            supplier.name?.localizedCaseInsensitiveContains(query) == true ||
+            supplier.phoneNumber?.localizedCaseInsensitiveContains(query) == true ||
+            supplier.email?.localizedCaseInsensitiveContains(query) == true
+        }
+    }
+    
+    func searchPurchases(query: String) -> [Purchase] {
+        if query.isEmpty {
+            return purchases
+        }
+        return purchases.filter { purchase in
+            purchase.itemName?.localizedCaseInsensitiveContains(query) == true ||
+            purchase.supplier?.name?.localizedCaseInsensitiveContains(query) == true
+        }
     }
 } 

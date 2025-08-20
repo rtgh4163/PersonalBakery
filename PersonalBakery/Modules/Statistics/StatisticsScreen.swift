@@ -62,6 +62,7 @@ struct StatisticsScreen: View {
                 VStack(spacing: 20) {
                     LazyVGrid(columns: [
                         GridItem(.flexible()),
+                        GridItem(.flexible()),
                         GridItem(.flexible())
                     ], spacing: 16) {
                         MetricCard(
@@ -94,6 +95,14 @@ struct StatisticsScreen: View {
                             subtitle: "Available",
                             icon: "cube.box.fill",
                             color: Color(red: 88, green: 86, blue: 214)
+                        )
+                        
+                        MetricCard(
+                            title: "Suppliers",
+                            value: "\(dataViewModel.suppliers.count)",
+                            subtitle: "Active",
+                            icon: "truck.box.fill",
+                            color: Color(red: 255, green: 149, blue: 0)
                         )
                     }
                     .padding(.horizontal, 16)

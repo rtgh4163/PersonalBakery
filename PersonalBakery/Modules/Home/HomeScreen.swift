@@ -167,7 +167,8 @@ struct HomeScreen: View {
             AddOrderScreen(dataViewModel: dataViewModel)
         }
         .sheet(isPresented: $showingWarehouse) {
-            WarehouseScreen(dataViewModel: dataViewModel)
+            WarehouseScreen()
+                .environmentObject(dataViewModel)
         }
         .onAppear {
             dataViewModel.loadData()

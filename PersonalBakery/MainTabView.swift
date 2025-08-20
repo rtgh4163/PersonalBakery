@@ -37,6 +37,12 @@ struct MainTabView: View {
                     .tag(4)
                     .navigationBarHidden(true)
                     .navigationBarBackButtonHidden(true)
+                
+                SuppliersScreen()
+                    .environmentObject(dataViewModel)
+                    .tag(5)
+                    .navigationBarHidden(true)
+                    .navigationBarBackButtonHidden(true)
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             
@@ -84,6 +90,14 @@ struct MainTabView: View {
                         isSelected: selectedTab == 4
                     ) {
                         selectedTab = 4
+                    }
+                    
+                    TabButton(
+                        icon: Image(systemName: "truck.box.fill"),
+                        title: "Suppliers",
+                        isSelected: selectedTab == 5
+                    ) {
+                        selectedTab = 5
                     }
                 }
                 .background(Color(red: 28/255, green: 12/255, blue: 29/255))

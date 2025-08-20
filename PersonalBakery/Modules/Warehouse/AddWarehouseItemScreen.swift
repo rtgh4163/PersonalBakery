@@ -5,7 +5,7 @@ struct AddWarehouseItemScreen: View {
     @State private var itemName = ""
     @State private var quantity = 1
     @Environment(\.dismiss) private var dismiss
-    var onAddItem: ((String, Int) -> Void)?
+    @EnvironmentObject var dataViewModel: DataViewModel
     
     var body: some View {
         NavigationView {
@@ -44,54 +44,53 @@ struct AddWarehouseItemScreen: View {
                 )
                 .padding(.top, 8)
                 
-                            HStack {
-                Text("Amount:")
-                    .foregroundColor(.white)
-                    .font(.system(size: 18, weight: .semibold, design: .rounded))
-                
-                Spacer()
-                
-                HStack(spacing: 6) {
-                    Button(action: {
-                        if quantity > 1 {
-                            quantity -= 1
-                        }
-                    }) {
-                        Image(.minus)
-                            .resizable()
-                            .scaledToFit()
-                    }
-                    .frame(width: 50, height: 50)
-                    
-                    Text("\(quantity)")
+                HStack {
+                    Text("Amount:")
                         .foregroundColor(.white)
-                        .font(.system(size: 18, weight: .medium, design: .rounded))
-                        .frame(width: 80, height: 44)
-                        .background(
-                            RoundedRectangle(cornerRadius: 12)
-                                .fill(Color(red: 43, green: 36, blue: 48))
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 12)
-                                        .stroke(Color(red: 91, green: 78, blue: 100), lineWidth: 1)
-                                )
-                        )
+                        .font(.system(size: 18, weight: .semibold, design: .rounded))
                     
-                    Button(action: {
-                        quantity += 1
-                    }) {
-                        Image(.plus)
-                            .resizable()
-                            .scaledToFit()
+                    Spacer()
+                    
+                    HStack(spacing: 6) {
+                        Button(action: {
+                            if quantity > 1 {
+                                quantity -= 1
+                            }
+                        }) {
+                            Image(.minus)
+                                .resizable()
+                                .scaledToFit()
+                        }
+                        .frame(width: 50, height: 50)
+                        
+                        Text("\(quantity)")
+                            .foregroundColor(.white)
+                            .font(.system(size: 18, weight: .medium, design: .rounded))
+                            .frame(width: 80, height: 44)
+                            .background(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(Color(red: 43, green: 36, blue: 48))
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 12)
+                                            .stroke(Color(red: 91, green: 78, blue: 100), lineWidth: 1)
+                                    )
+                            )
+                        
+                        Button(action: {
+                            quantity += 1
+                        }) {
+                            Image(.plus)
+                                .resizable()
+                                .scaledToFit()
+                        }
+                        .frame(width: 50, height: 50)
                     }
-                    .frame(width: 50, height: 50)
                 }
-            }
-            .padding(.top, 24)
+                .padding(.top, 24)
                 
                 Button {
                     if !itemName.isEmpty {
-                        onAddItem?(itemName, quantity)
-                        dismiss()
+                        addItem()
                     }
                 } label: {
                     Text("Add item")
@@ -132,8 +131,14 @@ struct AddWarehouseItemScreen: View {
             }
         }
     }
+    
+    private func addItem() {
+        dataViewModel.addWarehouseItem(name: itemName, quantity: Int32(quantity))
+        dismiss()
+    }
 }
 
 #Preview {
     AddWarehouseItemScreen()
+        .environmentObject(DataViewModel())
 } 
