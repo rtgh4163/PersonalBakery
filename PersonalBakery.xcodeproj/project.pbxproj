@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27983D042E5CA572007BFD01 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 27983D032E5CA572007BFD01 /* FirebaseFunctions */; };
+		27983D062E5CA578007BFD01 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 27983D052E5CA578007BFD01 /* FirebaseRemoteConfig */; };
 		27BCB04D2E576FA700A2C237 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 27BCB04C2E576FA700A2C237 /* FirebaseAnalytics */; };
 		27BCB04F2E576FA700A2C237 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 27BCB04E2E576FA700A2C237 /* FirebaseCore */; };
 		27BCB0512E576FA700A2C237 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 27BCB0502E576FA700A2C237 /* FirebaseFirestore */; };
@@ -45,6 +47,8 @@
 				27BCB04F2E576FA700A2C237 /* FirebaseCore in Frameworks */,
 				27BCB04D2E576FA700A2C237 /* FirebaseAnalytics in Frameworks */,
 				27BCB0512E576FA700A2C237 /* FirebaseFirestore in Frameworks */,
+				27983D042E5CA572007BFD01 /* FirebaseFunctions in Frameworks */,
+				27983D062E5CA578007BFD01 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				27672DA12E413F14004C9C9E /* PersonalBakery */,
+				27983D022E5CA572007BFD01 /* Frameworks */,
 				27672DA02E413F14004C9C9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +70,13 @@
 				27672D9F2E413F14004C9C9E /* PersonalBakery.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		27983D022E5CA572007BFD01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +102,8 @@
 				27BCB04C2E576FA700A2C237 /* FirebaseAnalytics */,
 				27BCB04E2E576FA700A2C237 /* FirebaseCore */,
 				27BCB0502E576FA700A2C237 /* FirebaseFirestore */,
+				27983D032E5CA572007BFD01 /* FirebaseFunctions */,
+				27983D052E5CA578007BFD01 /* FirebaseRemoteConfig */,
 			);
 			productName = PersonalBakery;
 			productReference = 27672D9F2E413F14004C9C9E /* PersonalBakery.app */;
@@ -160,7 +174,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalBakery/Info.plist;
@@ -177,7 +191,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nestorharrison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -198,7 +212,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalBakery/Info.plist;
@@ -215,7 +229,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nestorharrison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -383,6 +397,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		27983D032E5CA572007BFD01 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BCB04B2E576FA700A2C237 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		27983D052E5CA578007BFD01 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BCB04B2E576FA700A2C237 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
 		27BCB04C2E576FA700A2C237 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 27BCB04B2E576FA700A2C237 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

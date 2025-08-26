@@ -186,3 +186,4 @@ struct SupplierRowView: View {
         .environmentObject(DataViewModel())
         .preferredColorScheme(.dark)
 }
+

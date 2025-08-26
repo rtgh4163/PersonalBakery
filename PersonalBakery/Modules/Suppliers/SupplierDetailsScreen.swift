@@ -248,3 +248,4 @@ struct PurchaseRow: View {
     SupplierDetailsScreen(supplier: Supplier())
         .environmentObject(DataViewModel())
 }
+

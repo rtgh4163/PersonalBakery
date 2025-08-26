@@ -52,12 +52,23 @@ struct SuppliersScreen: View {
             
             VStack(spacing: 16) {
                 HStack {
-                    Image(systemName: "magnifyingglass")
-                        .foregroundColor(.white.opacity(0.6))
+                    TextField("", text: $searchText, prompt:
+                                Text("Search suppliers")
+                                    .foregroundColor(Color.init(red: 175, green: 175, blue: 175))
+                                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                    )
+                    .foregroundColor(.white)
+                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                    .toolbar {
+                        ToolbarItemGroup(placement: .keyboard) {
+                            Spacer()
+                            Button("Done") {
+                                hideKeyboard()
+                            }
+                        }
+                    }
                     
-                    TextField("Search suppliers...", text: $searchText)
-                        .foregroundColor(.white)
-                        .textFieldStyle(PlainTextFieldStyle())
+                    Spacer()
                     
                     if !searchText.isEmpty {
                         Button("Clear") {
@@ -67,21 +78,39 @@ struct SuppliersScreen: View {
                         .font(.caption)
                     }
                 }
-                .padding(.horizontal, 16)
-                .padding(.vertical, 12)
+                .padding(16)
                 .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color(red: 106, green: 36, blue: 82).opacity(0.3))
+                    RoundedRectangle(cornerRadius: 99)
+                        .fill(Color(red: 43, green: 36, blue: 48))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 99)
+                                .stroke(Color(red: 91, green: 78, blue: 100), lineWidth: 1)
+                        )
                 )
+                .padding(.top, 24)
                 .padding(.horizontal, 16)
                 
-                Picker("Filter", selection: $selectedFilter) {
+                HStack(spacing: 12) {
                     ForEach(SupplierFilter.allCases, id: \.self) { filter in
-                        Text(filter.rawValue).tag(filter)
+                        Spacer()
+                        Button(action: {
+                            selectedFilter = filter
+                        }) {
+                            Text(filter.rawValue)
+                                .foregroundColor(.white)
+                                .font(.system(size: 14, weight: .medium, design: .rounded))
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 8)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 20)
+                                        .fill(selectedFilter == filter
+                                              ? Color(red: 255, green: 65, blue: 103)
+                                              : Color(red: 80, green: 65, blue: 90))
+                                )
+                        }
                     }
+                    Spacer()
                 }
-                .pickerStyle(SegmentedPickerStyle())
-                .padding(.horizontal, 16)
             }
             
             LazyVGrid(columns: [
@@ -196,3 +225,4 @@ struct StatCard: View {
     SuppliersScreen()
         .environmentObject(DataViewModel())
 }
+

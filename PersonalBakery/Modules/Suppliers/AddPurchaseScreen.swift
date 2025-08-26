@@ -205,3 +205,4 @@ struct AddPurchaseScreen: View {
     AddPurchaseScreen(supplier: Supplier())
         .environmentObject(DataViewModel())
 }
+

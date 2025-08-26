@@ -211,15 +211,14 @@ struct CustomTextField: View {
             TextField(placeholder, text: $text)
                 .foregroundColor(.white)
                 .textFieldStyle(PlainTextFieldStyle())
-                .padding(.horizontal, 16)
-                .padding(.vertical, 12)
+                .padding(16)
                 .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color(red: 106, green: 36, blue: 82).opacity(0.3))
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(Color(red: 106, green: 36, blue: 82), lineWidth: 1)
+                    RoundedRectangle(cornerRadius: 99)
+                        .fill(Color(red: 43, green: 36, blue: 48))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 99)
+                                .stroke(Color(red: 91, green: 78, blue: 100), lineWidth: 1)
+                        )
                 )
         }
     }
